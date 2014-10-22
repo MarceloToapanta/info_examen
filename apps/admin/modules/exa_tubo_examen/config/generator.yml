@@ -1,0 +1,54 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           ExaTuboExamen
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          exa_tubo_examen
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        ett_id_tubo: {label: Nombre Color Tubo}
+        ett_id_examen: {label: Nombre Examen}
+        nombre_examen: {label: Nombre Examen}
+        nombre_tubo: {label: Nombre Color Tubo}
+      list:    
+        title: Lista de Tubos Asigandos a Examenes
+        display: [nombre_examen,nombre_tubo] 
+        max_per_page: 10
+        object_actions:
+          _edit:       {label: Editar } 
+          _delete:     {label: Eliminar, confirm: Esta Seguro(a)?}
+        batch_actions:
+          _delete:      {label: Eliminar,confirm: Esta Seguro(a)?} 
+        actions:
+          _new:         {label: Nuevo}
+        batch_actions: {}
+      filter:  
+        display: [ett_id_tubo,ett_id_examen] 
+      form:   ~
+      edit:    
+        title: Editar asignacion
+        fields:
+          ett_id_examen: {help: Actualiza Examen}
+          ett_id_tubo: {help: Actualiza Tubo}
+        actions:
+          _delete:        {label: Eliminar, confirm: Esta Seguro(a)?} 
+          _list:          {label: Regresar Lista} 
+          _save:          {label: Guardar} 
+      new:     
+        title: Nueva Asignacion
+        fields:
+          ett_id_examen: {help: Seleciona Examen}
+          ett_id_tubo: {help: Seleciona Tubo}
+        actions:
+          _delete:        {label: Eliminar} 
+          _list:          {label: Regresar Lista} 
+          _save:          {label: Guardar} 
+          _save_and_add:  {label: Guardar y Añadir} 

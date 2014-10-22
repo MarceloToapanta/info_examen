@@ -1,0 +1,62 @@
+exa_usuario:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ExaUsuario
+    module:               exa_usuario
+    prefix_path:          /exa_usuario
+    column:               exa_id_usuario
+    with_wildcard_routes: true
+
+exa_tubo_examen:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ExaTuboExamen
+    module:               exa_tubo_examen
+    prefix_path:          /exa_tubo_examen
+    column:               ett_id
+    with_wildcard_routes: true
+
+exa_tubo:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ExaTubo
+    module:               exa_tubo
+    prefix_path:          /exa_tubo
+    column:               ext_id_tubo
+    with_wildcard_routes: true
+
+exa_tipo_examen:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ExaTipoExamen
+    module:               exa_tipo_examen
+    prefix_path:          /exa_tipo_examen
+    column:               ete_id_tipo_examen
+    with_wildcard_routes: true
+
+exa_examen:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ExaExamen
+    module:               exa_examen
+    prefix_path:          /exa_examen
+    column:               exa_id_examen
+    with_wildcard_routes: true
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+
+homepage:
+  url:   /
+  param: { module: panel, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*

@@ -1,0 +1,59 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           ExaUsuario
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          exa_usuario
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        exa_id_usuario: {label: Id}
+        exa_nombre_usuario: {label: Nombre Usuario}
+        exa_login: {label: Usuario}
+        exa_pass_usuario: {label: Clave}
+        exa_permiso_usuario: {label: Permiso}
+      list:    
+        title: Lista de Usuarios
+        display: [exa_nombre_usuario,exa_login,exa_pass_usuario,exa_permiso_usuario] 
+        max_per_page: 10
+        object_actions:
+          _edit:       {label: Editar } 
+          _delete:     {label: Eliminar, confirm: Esta Seguro(a)?}
+        batch_actions:
+          _delete:      {label: Eliminar,confirm: Esta Seguro(a)?} 
+        actions:
+          _new:         {label: Nuevo}
+        batch_actions: {}
+      filter:  
+        display: [exa_nombre_usuario,exa_permiso_usuario] 
+      form:    ~
+      edit:    
+        title: Editar Usuario
+        fields:
+          exa_nombre_usuario: {help: Actualiza nombre de usuario}
+          exa_login: {help: Actualiza nombre para ingresar al sistema del usario}
+          exa_pass_usuario: {help: Actualiza la clave del usuario}
+          exa_permiso_usuario: {help: Actualiza el permiso del usuario}
+        actions:
+          _delete:        {label: Eliminar} 
+          _list:          {label: Regresar Lista} 
+          _save:          {label: Guardar} 
+      new:     
+        title: Nuevo Usuario
+        fields:
+          exa_nombre_usuario: {help: Ingresa nombre de usuario}
+          exa_login: {help: Ingresa nombre para ingresar al sistema del usario}
+          exa_pass_usuario: {help: Ingresa la clave del usuario}
+          exa_permiso_usuario: {help: Ingresa el permiso del usuario}
+        actions:
+          _delete:        {label: Eliminar} 
+          _list:          {label: Regresar Lista} 
+          _save:          {label: Guardar} 
+          _save_and_add:  {label: Guardar y Añadir} 

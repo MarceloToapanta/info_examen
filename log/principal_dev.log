@@ -1,0 +1,591 @@
+May 22 05:31:44 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:31:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:31:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:31:44 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:31:44 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:31:44 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sdfd%)
+May 22 05:31:44 symfony [notice] {sfWebDebugLogger}  Notice at C:\info_examen\apps\principal\modules\inicio\actions\actions.class.php on line 44 (Undefined variable: examenes)
+May 22 05:31:44 symfony [info] ===================== Request NULL
+May 22 05:31:44 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:31:44 symfony [warning] {sfWebDebugLogger}  Warning at C:\info_examen\apps\principal\modules\inicio\templates\indexSuccess.php on line 43 (Invalid argument supplied for foreach())
+May 22 05:31:44 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:31:44 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:31:44 symfony [info] {main} Get slot "menu"
+May 22 05:31:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:31:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:31:44 symfony [info] {sfWebDebugLogger} Configuration 92.82 ms (10)
+May 22 05:31:44 symfony [info] {sfWebDebugLogger} Factories 124.51 ms (1)
+May 22 05:31:44 symfony [info] {sfWebDebugLogger} Action "inicio/index" 68.94 ms (1)
+May 22 05:31:44 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.96 ms (2)
+May 22 05:31:44 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 19.14 ms (1)
+May 22 05:31:45 symfony [info] {sfWebResponse} Send content (40286 o)
+May 22 05:32:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:32:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:32:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:32:57 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:32:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:32:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sdfd%)
+May 22 05:32:57 symfony [notice] {sfWebDebugLogger}  Notice at C:\info_examen\apps\principal\modules\inicio\actions\actions.class.php on line 43 (Undefined variable: examenes)
+May 22 05:32:57 symfony [info] ===================== Request NULL
+May 22 05:32:57 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:32:57 symfony [warning] {sfWebDebugLogger}  Warning at C:\info_examen\apps\principal\modules\inicio\templates\indexSuccess.php on line 43 (Invalid argument supplied for foreach())
+May 22 05:32:57 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:32:57 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:32:57 symfony [info] {main} Get slot "menu"
+May 22 05:32:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:32:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:32:57 symfony [info] {sfWebDebugLogger} Configuration 93.16 ms (10)
+May 22 05:32:57 symfony [info] {sfWebDebugLogger} Factories 125.01 ms (1)
+May 22 05:32:57 symfony [info] {sfWebDebugLogger} Action "inicio/index" 64.00 ms (1)
+May 22 05:32:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.83 ms (2)
+May 22 05:32:57 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 20.04 ms (1)
+May 22 05:32:57 symfony [info] {sfWebResponse} Send content (40286 o)
+May 22 05:34:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:34:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:34:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:34:42 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:34:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:34:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sdfd%)
+May 22 05:34:42 symfony [notice] {sfWebDebugLogger}  Notice at C:\info_examen\apps\principal\modules\inicio\actions\actions.class.php on line 43 (Undefined variable: examenes)
+May 22 05:34:42 symfony [info] ===================== Request NULL
+May 22 05:34:42 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:34:42 symfony [warning] {sfWebDebugLogger}  Warning at C:\info_examen\apps\principal\modules\inicio\templates\indexSuccess.php on line 43 (Invalid argument supplied for foreach())
+May 22 05:34:42 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:34:42 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:34:42 symfony [info] {main} Get slot "menu"
+May 22 05:34:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:34:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:34:42 symfony [info] {sfWebDebugLogger} Configuration 102.90 ms (10)
+May 22 05:34:42 symfony [info] {sfWebDebugLogger} Factories 132.79 ms (1)
+May 22 05:34:42 symfony [info] {sfWebDebugLogger} Action "inicio/index" 63.26 ms (1)
+May 22 05:34:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.83 ms (2)
+May 22 05:34:42 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 20.25 ms (1)
+May 22 05:34:43 symfony [info] {sfWebResponse} Send content (40287 o)
+May 22 05:35:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:35:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:35:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:35:28 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:35:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:35:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sdfd%)
+May 22 05:35:28 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sdfd%)
+May 22 05:35:28 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:35:28 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:35:28 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:35:28 symfony [info] {main} Get slot "menu"
+May 22 05:35:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:35:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:35:28 symfony [info] {sfWebDebugLogger} Configuration 95.02 ms (10)
+May 22 05:35:28 symfony [info] {sfWebDebugLogger} Factories 125.01 ms (1)
+May 22 05:35:28 symfony [info] {sfWebDebugLogger} Action "inicio/index" 57.85 ms (1)
+May 22 05:35:28 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.37 ms (3)
+May 22 05:35:28 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 17.13 ms (1)
+May 22 05:35:28 symfony [info] {sfWebResponse} Send content (37029 o)
+May 22 05:35:33 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:35:33 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:35:33 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:35:33 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:35:33 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:35:33 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sdfd%)
+May 22 05:35:33 symfony [notice] {sfWebDebugLogger}  Notice at C:\info_examen\apps\principal\modules\inicio\actions\actions.class.php on line 43 (Undefined variable: examenes)
+May 22 05:35:33 symfony [info] ===================== Request NULL
+May 22 05:35:33 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:35:33 symfony [warning] {sfWebDebugLogger}  Warning at C:\info_examen\apps\principal\modules\inicio\templates\indexSuccess.php on line 43 (Invalid argument supplied for foreach())
+May 22 05:35:33 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:35:33 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:35:33 symfony [info] {main} Get slot "menu"
+May 22 05:35:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:35:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:35:33 symfony [info] {sfWebDebugLogger} Configuration 94.69 ms (10)
+May 22 05:35:33 symfony [info] {sfWebDebugLogger} Factories 125.46 ms (1)
+May 22 05:35:33 symfony [info] {sfWebDebugLogger} Action "inicio/index" 53.48 ms (1)
+May 22 05:35:33 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.85 ms (2)
+May 22 05:35:33 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 19.73 ms (1)
+May 22 05:35:33 symfony [info] {sfWebResponse} Send content (40286 o)
+May 22 05:37:01 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:37:01 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:37:01 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:37:01 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:37:02 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:37:02 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sdfd%)
+May 22 05:37:02 symfony [notice] {sfWebDebugLogger}  Notice at C:\info_examen\apps\principal\modules\inicio\actions\actions.class.php on line 42 (Undefined variable: examenes)
+May 22 05:37:02 symfony [info] ===================== Request NULL
+May 22 05:37:02 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:37:02 symfony [warning] {sfWebDebugLogger}  Warning at C:\info_examen\apps\principal\modules\inicio\templates\indexSuccess.php on line 43 (Invalid argument supplied for foreach())
+May 22 05:37:02 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:37:02 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:37:02 symfony [info] {main} Get slot "menu"
+May 22 05:37:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:37:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:37:02 symfony [info] {sfWebDebugLogger} Configuration 95.33 ms (10)
+May 22 05:37:02 symfony [info] {sfWebDebugLogger} Factories 126.86 ms (1)
+May 22 05:37:02 symfony [info] {sfWebDebugLogger} Action "inicio/index" 63.94 ms (1)
+May 22 05:37:02 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.97 ms (2)
+May 22 05:37:02 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 19.33 ms (1)
+May 22 05:37:02 symfony [info] {sfWebResponse} Send content (40286 o)
+May 22 05:37:22 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:37:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:37:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:37:22 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:37:22 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:37:22 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sdfd%)
+May 22 05:37:22 symfony [notice] {sfWebDebugLogger}  Notice at C:\info_examen\apps\principal\modules\inicio\actions\actions.class.php on line 41 (Undefined variable: examenes)
+May 22 05:37:22 symfony [info] ===================== Request NULL
+May 22 05:37:22 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:37:22 symfony [warning] {sfWebDebugLogger}  Warning at C:\info_examen\apps\principal\modules\inicio\templates\indexSuccess.php on line 43 (Invalid argument supplied for foreach())
+May 22 05:37:22 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:37:22 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:37:22 symfony [info] {main} Get slot "menu"
+May 22 05:37:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:37:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:37:22 symfony [info] {sfWebDebugLogger} Configuration 93.98 ms (10)
+May 22 05:37:22 symfony [info] {sfWebDebugLogger} Factories 127.70 ms (1)
+May 22 05:37:22 symfony [info] {sfWebDebugLogger} Action "inicio/index" 52.85 ms (1)
+May 22 05:37:22 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.98 ms (2)
+May 22 05:37:22 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 18.59 ms (1)
+May 22 05:37:22 symfony [info] {sfWebResponse} Send content (40286 o)
+May 22 05:43:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:44:06 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:44:06 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:44:06 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:44:06 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:44:06 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:44:06 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sdfd%)
+May 22 05:44:06 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (ete_nombre_examen like %sdfd%) ORDER BY ete_nombre_examen asc - ()
+May 22 05:44:06 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%sdfd%) ORDER BY ete_nombre_examen asc' at line 1. Failing Query: "SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (ete_nombre_examen like %sdfd%) ORDER BY ete_nombre_examen asc"
+May 22 05:44:07 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 22 05:44:07 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:44:07 symfony [info] {sfWebDebugLogger} Configuration 96.35 ms (9)
+May 22 05:44:07 symfony [info] {sfWebDebugLogger} Factories 128.68 ms (1)
+May 22 05:44:07 symfony [info] {sfWebDebugLogger} Action "inicio/index" 276.84 ms (1)
+May 22 05:44:07 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.91 ms (2)
+May 22 05:46:07 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:46:07 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:46:07 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:46:07 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:46:08 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:46:08 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sdfd%)
+May 22 05:46:08 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (e.exa_id_tipo_examen = e2.ete_id_tipo_examen AND ete_nombre_examen like %sdfd%) ORDER BY ete_nombre_examen asc - ()
+May 22 05:46:08 symfony [err] {Doctrine_Connection_Mysql_Exception} SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%sdfd%) ORDER BY ete_nombre_examen asc' at line 1. Failing Query: "SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (e.exa_id_tipo_examen = e2.ete_id_tipo_examen AND ete_nombre_examen like %sdfd%) ORDER BY ete_nombre_examen asc"
+May 22 05:46:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+May 22 05:46:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:46:08 symfony [info] {sfWebDebugLogger} Configuration 122.48 ms (9)
+May 22 05:46:08 symfony [info] {sfWebDebugLogger} Factories 161.23 ms (1)
+May 22 05:46:08 symfony [info] {sfWebDebugLogger} Action "inicio/index" 169.80 ms (1)
+May 22 05:46:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.88 ms (2)
+May 22 05:49:12 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:49:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:49:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:49:12 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:49:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:49:12 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sdfd%)
+May 22 05:49:12 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (e.exa_id_tipo_examen = e2.ete_id_tipo_examen AND ete_nombre_examen like'%sdfd%') ORDER BY ete_nombre_examen asc - ()
+May 22 05:49:12 symfony [notice] {sfWebDebugLogger}  Notice at C:\info_examen\apps\principal\modules\inicio\actions\actions.class.php on line 44 (Undefined variable: examenes)
+May 22 05:49:12 symfony [info] ===================== Request NULL
+May 22 05:49:12 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:49:12 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:49:12 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:49:12 symfony [info] {main} Get slot "menu"
+May 22 05:49:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:49:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:49:12 symfony [info] {sfWebDebugLogger} Configuration 98.57 ms (10)
+May 22 05:49:12 symfony [info] {sfWebDebugLogger} Factories 130.76 ms (1)
+May 22 05:49:12 symfony [info] {sfWebDebugLogger} Action "inicio/index" 122.59 ms (1)
+May 22 05:49:12 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.70 ms (3)
+May 22 05:49:12 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 18.61 ms (1)
+May 22 05:49:12 symfony [info] {sfWebResponse} Send content (37501 o)
+May 22 05:49:31 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:49:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:49:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:49:31 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:49:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:49:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sdfd%)
+May 22 05:49:31 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sdfd%)
+May 22 05:49:31 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:49:31 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:49:31 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:49:31 symfony [info] {main} Get slot "menu"
+May 22 05:49:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:49:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:49:31 symfony [info] {sfWebDebugLogger} Configuration 93.19 ms (10)
+May 22 05:49:31 symfony [info] {sfWebDebugLogger} Factories 126.51 ms (1)
+May 22 05:49:31 symfony [info] {sfWebDebugLogger} Action "inicio/index" 57.30 ms (1)
+May 22 05:49:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.41 ms (3)
+May 22 05:49:31 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 17.45 ms (1)
+May 22 05:49:31 symfony [info] {sfWebResponse} Send content (37028 o)
+May 22 05:49:55 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:49:55 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:49:55 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:49:55 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%%)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%%)
+May 22 05:49:55 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (8)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (3)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (8)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (7)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (3)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (7)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (9)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (1)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (9)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (1)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (1)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (1)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ext_id_tubo AS e__ext_id_tubo, e.ext_nombre_color AS e__ext_nombre_color, e.ext_codigo_color AS e__ext_codigo_color FROM exa_tubo e WHERE (e.ext_id_tubo = ?) - (1)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ext_id_tubo AS e__ext_id_tubo, e.ext_nombre_color AS e__ext_nombre_color, e.ext_codigo_color AS e__ext_codigo_color FROM exa_tubo e WHERE (e.ext_id_tubo = ?) - (2)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (2)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (1)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (2)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (5)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (2)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (5)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ext_id_tubo AS e__ext_id_tubo, e.ext_nombre_color AS e__ext_nombre_color, e.ext_codigo_color AS e__ext_codigo_color FROM exa_tubo e WHERE (e.ext_id_tubo = ?) - (1)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ext_id_tubo AS e__ext_id_tubo, e.ext_nombre_color AS e__ext_nombre_color, e.ext_codigo_color AS e__ext_codigo_color FROM exa_tubo e WHERE (e.ext_id_tubo = ?) - (5)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (6)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (3)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (6)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (10)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (1)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (10)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (3)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (1)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (3)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (4)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (2)
+May 22 05:49:55 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (4)
+May 22 05:49:55 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:49:55 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:49:56 symfony [info] {main} Get slot "menu"
+May 22 05:49:56 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:49:56 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:49:56 symfony [info] {sfWebDebugLogger} Configuration 91.85 ms (10)
+May 22 05:49:56 symfony [info] {sfWebDebugLogger} Factories 123.02 ms (1)
+May 22 05:49:56 symfony [info] {sfWebDebugLogger} Action "inicio/index" 65.54 ms (1)
+May 22 05:49:56 symfony [info] {sfWebDebugLogger} Database (Doctrine) 18.78 ms (37)
+May 22 05:49:56 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 249.73 ms (1)
+May 22 05:49:56 symfony [info] {sfWebResponse} Send content (99161 o)
+May 22 05:50:04 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:50:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:50:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:50:04 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:50:04 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:50:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%Coagulación%)
+May 22 05:50:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (e.exa_id_tipo_examen = e2.ete_id_tipo_examen AND ete_nombre_examen like'%Coagulación%') ORDER BY ete_nombre_examen asc - ()
+May 22 05:50:04 symfony [notice] {sfWebDebugLogger}  Notice at C:\info_examen\apps\principal\modules\inicio\actions\actions.class.php on line 44 (Undefined variable: examenes)
+May 22 05:50:04 symfony [info] ===================== Request NULL
+May 22 05:50:04 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:50:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (6)
+May 22 05:50:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (3)
+May 22 05:50:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (6)
+May 22 05:50:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (7)
+May 22 05:50:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (3)
+May 22 05:50:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (7)
+May 22 05:50:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (8)
+May 22 05:50:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (3)
+May 22 05:50:04 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (8)
+May 22 05:50:04 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:50:04 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:50:04 symfony [info] {main} Get slot "menu"
+May 22 05:50:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:50:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:50:04 symfony [info] {sfWebDebugLogger} Configuration 100.50 ms (10)
+May 22 05:50:04 symfony [info] {sfWebDebugLogger} Factories 134.32 ms (1)
+May 22 05:50:04 symfony [info] {sfWebDebugLogger} Action "inicio/index" 65.67 ms (1)
+May 22 05:50:04 symfony [info] {sfWebDebugLogger} Database (Doctrine) 5.84 ms (12)
+May 22 05:50:04 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 80.72 ms (1)
+May 22 05:50:04 symfony [info] {sfWebResponse} Send content (54340 o)
+May 22 05:50:34 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:50:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:50:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:50:34 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:50:34 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:50:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%Coagulación%)
+May 22 05:50:34 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (e.exa_id_tipo_examen = e2.ete_id_tipo_examen AND ete_nombre_examen like'%Coagulación%') ORDER BY ete_nombre_examen asc - ()
+May 22 05:50:34 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:50:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (6)
+May 22 05:50:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (3)
+May 22 05:50:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (6)
+May 22 05:50:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (7)
+May 22 05:50:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (3)
+May 22 05:50:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (7)
+May 22 05:50:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (8)
+May 22 05:50:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (3)
+May 22 05:50:34 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (8)
+May 22 05:50:34 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:50:34 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:50:34 symfony [info] {main} Get slot "menu"
+May 22 05:50:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:50:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:50:34 symfony [info] {sfWebDebugLogger} Configuration 92.46 ms (10)
+May 22 05:50:34 symfony [info] {sfWebDebugLogger} Factories 123.28 ms (1)
+May 22 05:50:34 symfony [info] {sfWebDebugLogger} Action "inicio/index" 77.46 ms (1)
+May 22 05:50:34 symfony [info] {sfWebDebugLogger} Database (Doctrine) 5.94 ms (12)
+May 22 05:50:34 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 84.22 ms (1)
+May 22 05:50:34 symfony [info] {sfWebResponse} Send content (53998 o)
+May 22 05:50:39 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:50:39 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:50:39 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:50:39 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:50:39 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:50:39 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sddd%)
+May 22 05:50:39 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sddd%)
+May 22 05:50:39 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:50:39 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:50:39 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:50:39 symfony [info] {main} Get slot "menu"
+May 22 05:50:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:50:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:50:39 symfony [info] {sfWebDebugLogger} Configuration 92.20 ms (10)
+May 22 05:50:39 symfony [info] {sfWebDebugLogger} Factories 128.63 ms (1)
+May 22 05:50:39 symfony [info] {sfWebDebugLogger} Action "inicio/index" 56.42 ms (1)
+May 22 05:50:39 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.29 ms (3)
+May 22 05:50:39 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 17.63 ms (1)
+May 22 05:50:39 symfony [info] {sfWebResponse} Send content (37029 o)
+May 22 05:55:42 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:55:42 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:55:42 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:55:42 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:55:42 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:55:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sddd%)
+May 22 05:55:42 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sddd%)
+May 22 05:55:42 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:55:42 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:55:42 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:55:42 symfony [info] {main} Get slot "menu"
+May 22 05:55:43 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:55:43 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:55:43 symfony [info] {sfWebDebugLogger} Configuration 99.14 ms (10)
+May 22 05:55:43 symfony [info] {sfWebDebugLogger} Factories 129.98 ms (1)
+May 22 05:55:43 symfony [info] {sfWebDebugLogger} Action "inicio/index" 66.88 ms (1)
+May 22 05:55:43 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.38 ms (3)
+May 22 05:55:43 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 17.64 ms (1)
+May 22 05:55:43 symfony [info] {sfWebResponse} Send content (37028 o)
+May 22 05:55:46 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:55:46 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:55:46 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:55:46 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:55:47 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:55:47 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sddd%)
+May 22 05:55:47 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sddd%)
+May 22 05:55:47 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:55:47 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:55:47 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:55:47 symfony [info] {main} Get slot "menu"
+May 22 05:55:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:55:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:55:47 symfony [info] {sfWebDebugLogger} Configuration 96.19 ms (10)
+May 22 05:55:47 symfony [info] {sfWebDebugLogger} Factories 125.03 ms (1)
+May 22 05:55:47 symfony [info] {sfWebDebugLogger} Action "inicio/index" 56.73 ms (1)
+May 22 05:55:47 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.33 ms (3)
+May 22 05:55:47 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 17.20 ms (1)
+May 22 05:55:47 symfony [info] {sfWebResponse} Send content (37027 o)
+May 22 05:55:50 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:55:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:55:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:55:50 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:55:50 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:55:50 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sddd%)
+May 22 05:55:50 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (e.exa_id_tipo_examen = e2.ete_id_tipo_examen AND ete_nombre_examen like'%sddd%') ORDER BY ete_nombre_examen asc - ()
+May 22 05:55:50 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:55:50 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:55:50 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:55:50 symfony [info] {main} Get slot "menu"
+May 22 05:55:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:55:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:55:50 symfony [info] {sfWebDebugLogger} Configuration 95.02 ms (10)
+May 22 05:55:50 symfony [info] {sfWebDebugLogger} Factories 125.17 ms (1)
+May 22 05:55:50 symfony [info] {sfWebDebugLogger} Action "inicio/index" 64.54 ms (1)
+May 22 05:55:50 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.44 ms (3)
+May 22 05:55:50 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 17.25 ms (1)
+May 22 05:55:50 symfony [info] {sfWebResponse} Send content (37160 o)
+May 22 05:55:52 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:55:52 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:55:52 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:55:52 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:55:52 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:55:52 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sddd%)
+May 22 05:55:52 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (e.exa_id_tipo_examen = e2.ete_id_tipo_examen AND ete_nombre_examen like'%sddd%') ORDER BY ete_nombre_examen asc - ()
+May 22 05:55:52 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:55:52 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:55:52 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:55:52 symfony [info] {main} Get slot "menu"
+May 22 05:55:52 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:55:52 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:55:52 symfony [info] {sfWebDebugLogger} Configuration 92.14 ms (10)
+May 22 05:55:52 symfony [info] {sfWebDebugLogger} Factories 122.40 ms (1)
+May 22 05:55:52 symfony [info] {sfWebDebugLogger} Action "inicio/index" 70.33 ms (1)
+May 22 05:55:52 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.41 ms (3)
+May 22 05:55:52 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 19.63 ms (1)
+May 22 05:55:52 symfony [info] {sfWebResponse} Send content (37160 o)
+May 22 05:55:57 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:55:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:55:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:55:57 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:55:57 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:55:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sddd%)
+May 22 05:55:57 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sddd%)
+May 22 05:55:57 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:55:57 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:55:57 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:55:57 symfony [info] {main} Get slot "menu"
+May 22 05:55:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:55:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:55:57 symfony [info] {sfWebDebugLogger} Configuration 94.07 ms (10)
+May 22 05:55:57 symfony [info] {sfWebDebugLogger} Factories 124.67 ms (1)
+May 22 05:55:57 symfony [info] {sfWebDebugLogger} Action "inicio/index" 66.72 ms (1)
+May 22 05:55:57 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.42 ms (3)
+May 22 05:55:57 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 20.34 ms (1)
+May 22 05:55:57 symfony [info] {sfWebResponse} Send content (37028 o)
+May 22 05:55:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:55:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:55:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:55:59 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:55:59 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:55:59 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%sddd%)
+May 22 05:55:59 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (e.exa_id_tipo_examen = e2.ete_id_tipo_examen AND ete_nombre_examen like'%sddd%') ORDER BY ete_nombre_examen asc - ()
+May 22 05:55:59 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:55:59 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:55:59 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:55:59 symfony [info] {main} Get slot "menu"
+May 22 05:55:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:55:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:55:59 symfony [info] {sfWebDebugLogger} Configuration 93.99 ms (10)
+May 22 05:55:59 symfony [info] {sfWebDebugLogger} Factories 124.97 ms (1)
+May 22 05:55:59 symfony [info] {sfWebDebugLogger} Action "inicio/index" 69.99 ms (1)
+May 22 05:55:59 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.56 ms (3)
+May 22 05:55:59 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 17.29 ms (1)
+May 22 05:55:59 symfony [info] {sfWebResponse} Send content (37160 o)
+May 22 05:56:05 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:56:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:56:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:56:05 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:56:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:56:05 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%Glucosa%)
+May 22 05:56:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (e.exa_id_tipo_examen = e2.ete_id_tipo_examen AND ete_nombre_examen like'%Glucosa%') ORDER BY ete_nombre_examen asc - ()
+May 22 05:56:05 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:56:05 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:56:05 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:56:05 symfony [info] {main} Get slot "menu"
+May 22 05:56:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:56:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:56:05 symfony [info] {sfWebDebugLogger} Configuration 96.38 ms (10)
+May 22 05:56:05 symfony [info] {sfWebDebugLogger} Factories 127.60 ms (1)
+May 22 05:56:05 symfony [info] {sfWebDebugLogger} Action "inicio/index" 70.05 ms (1)
+May 22 05:56:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.52 ms (3)
+May 22 05:56:05 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 18.90 ms (1)
+May 22 05:56:05 symfony [info] {sfWebResponse} Send content (37181 o)
+May 22 05:56:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:56:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:56:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:56:11 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%%)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (e.exa_id_tipo_examen = e2.ete_id_tipo_examen AND ete_nombre_examen like'%%') ORDER BY ete_nombre_examen asc - ()
+May 22 05:56:11 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (6)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (3)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (6)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (7)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (3)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (7)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (8)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (3)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (8)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (4)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (2)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (4)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (5)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (2)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (5)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ext_id_tubo AS e__ext_id_tubo, e.ext_nombre_color AS e__ext_nombre_color, e.ext_codigo_color AS e__ext_codigo_color FROM exa_tubo e WHERE (e.ext_id_tubo = ?) - (1)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ext_id_tubo AS e__ext_id_tubo, e.ext_nombre_color AS e__ext_nombre_color, e.ext_codigo_color AS e__ext_codigo_color FROM exa_tubo e WHERE (e.ext_id_tubo = ?) - (5)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (1)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (1)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (1)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ext_id_tubo AS e__ext_id_tubo, e.ext_nombre_color AS e__ext_nombre_color, e.ext_codigo_color AS e__ext_codigo_color FROM exa_tubo e WHERE (e.ext_id_tubo = ?) - (1)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ext_id_tubo AS e__ext_id_tubo, e.ext_nombre_color AS e__ext_nombre_color, e.ext_codigo_color AS e__ext_codigo_color FROM exa_tubo e WHERE (e.ext_id_tubo = ?) - (2)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (2)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (1)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (2)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (3)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (1)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (3)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (9)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (1)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (9)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (10)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (1)
+May 22 05:56:11 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (10)
+May 22 05:56:11 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:56:11 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:56:11 symfony [info] {main} Get slot "menu"
+May 22 05:56:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:56:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:56:11 symfony [info] {sfWebDebugLogger} Configuration 95.68 ms (10)
+May 22 05:56:11 symfony [info] {sfWebDebugLogger} Factories 125.35 ms (1)
+May 22 05:56:11 symfony [info] {sfWebDebugLogger} Action "inicio/index" 68.12 ms (1)
+May 22 05:56:11 symfony [info] {sfWebDebugLogger} Database (Doctrine) 18.00 ms (37)
+May 22 05:56:11 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 252.05 ms (1)
+May 22 05:56:11 symfony [info] {sfWebResponse} Send content (99292 o)
+May 22 05:56:25 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 05:56:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 05:56:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 05:56:25 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 05:56:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 05:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%Hema%)
+May 22 05:56:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (e.exa_id_tipo_examen = e2.ete_id_tipo_examen AND ete_nombre_examen like'%Hema%') ORDER BY ete_nombre_examen asc - ()
+May 22 05:56:25 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 05:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (4)
+May 22 05:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (2)
+May 22 05:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (4)
+May 22 05:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__exa_id_tipo_examen, e.exa_nombre_examen AS e__exa_nombre_examen, e.exa_descrip_examen AS e__exa_descrip_examen, e.exa_observacion AS e__exa_observacion FROM exa_examen e WHERE (e.exa_id_examen = ?) LIMIT 1 - (5)
+May 22 05:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ete_id_tipo_examen AS e__ete_id_tipo_examen, e.ete_nombre_examen AS e__ete_nombre_examen FROM exa_tipo_examen e WHERE (e.ete_id_tipo_examen = ?) - (2)
+May 22 05:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ett_id AS e__ett_id, e.ett_id_tubo AS e__ett_id_tubo, e.ett_id_examen AS e__ett_id_examen FROM exa_tubo_examen e WHERE (e.ett_id_examen IN (?)) - (5)
+May 22 05:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ext_id_tubo AS e__ext_id_tubo, e.ext_nombre_color AS e__ext_nombre_color, e.ext_codigo_color AS e__ext_codigo_color FROM exa_tubo e WHERE (e.ext_id_tubo = ?) - (1)
+May 22 05:56:25 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.ext_id_tubo AS e__ext_id_tubo, e.ext_nombre_color AS e__ext_nombre_color, e.ext_codigo_color AS e__ext_codigo_color FROM exa_tubo e WHERE (e.ext_id_tubo = ?) - (5)
+May 22 05:56:25 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:56:25 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 05:56:25 symfony [info] {main} Get slot "menu"
+May 22 05:56:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 05:56:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 05:56:25 symfony [info] {sfWebDebugLogger} Configuration 93.92 ms (10)
+May 22 05:56:25 symfony [info] {sfWebDebugLogger} Factories 125.19 ms (1)
+May 22 05:56:25 symfony [info] {sfWebDebugLogger} Action "inicio/index" 62.74 ms (1)
+May 22 05:56:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 5.40 ms (11)
+May 22 05:56:25 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 78.68 ms (1)
+May 22 05:56:25 symfony [info] {sfWebResponse} Send content (51752 o)
+May 22 07:22:43 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 07:23:21 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 07:23:40 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+May 22 07:23:40 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 07:23:40 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 07:23:40 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+May 22 07:23:40 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+May 22 07:23:40 symfony [info] {Doctrine_Connection_Statement} execute : SELECT e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e WHERE (e.exa_nombre_examen like ?) ORDER BY e.exa_nombre_examen asc - (%%)
+May 22 07:23:40 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.exa_id_examen AS e__exa_id_examen, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3, e.exa_id_examen AS e__0, e.exa_id_tipo_examen AS e__1, e.exa_nombre_examen AS e__2, e.exa_observacion AS e__3 FROM exa_examen e, exa_tipo_examen e2 WHERE (e.exa_id_tipo_examen = e2.ete_id_tipo_examen AND ete_nombre_examen like'%%') ORDER BY ete_nombre_examen asc - ()
+May 22 07:23:40 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\modules/inicio/templates/indexSuccess.php"
+May 22 07:23:40 symfony [info] {sfPHPView} Decorate content with "C:\info_examen\apps\principal\templates/layout.php"
+May 22 07:23:40 symfony [info] {sfPHPView} Render "C:\info_examen\apps\principal\templates/layout.php"
+May 22 07:23:40 symfony [info] {main} Get slot "menu"
+May 22 07:23:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+May 22 07:23:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 07:23:40 symfony [info] {sfWebDebugLogger} Configuration 151.66 ms (10)
+May 22 07:23:40 symfony [info] {sfWebDebugLogger} Factories 159.00 ms (1)
+May 22 07:23:40 symfony [info] {sfWebDebugLogger} Action "inicio/index" 81.03 ms (1)
+May 22 07:23:40 symfony [info] {sfWebDebugLogger} Database (Doctrine) 1.89 ms (3)
+May 22 07:23:40 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 27.00 ms (1)
+May 22 07:23:40 symfony [info] {sfWebResponse} Send content (36481 o)
+May 22 07:23:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /inicio/logout with parameters array (  'module' => 'inicio',  'action' => 'logout',)
+May 22 07:23:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+May 22 07:23:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+May 22 07:23:45 symfony [info] {inicioActions} Call "inicioActions->executeLogout()"
+May 22 07:23:45 symfony [info] {myUser} User is not authenticated
+May 22 07:23:45 symfony [info] {sfFrontWebController} Redirect to "http://www.infoexamen.com/"
+May 22 07:23:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+May 22 07:23:45 symfony [info] {sfWebResponse} Send header "Location: http://www.infoexamen.com/"
+May 22 07:23:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+May 22 07:23:45 symfony [info] {sfWebDebugLogger} Configuration 103.03 ms (9)
+May 22 07:23:45 symfony [info] {sfWebDebugLogger} Factories 137.53 ms (1)
+May 22 07:23:45 symfony [info] {sfWebDebugLogger} Action "inicio/logout" 1.68 ms (1)
+May 22 07:23:45 symfony [info] {sfWebResponse} Send content (97 o)

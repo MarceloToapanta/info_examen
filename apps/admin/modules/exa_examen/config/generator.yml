@@ -1,0 +1,63 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           ExaExamen
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          exa_examen
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: 
+      fields:  
+        exa_id_examen: {label: Id}
+        exa_id_tipo_examen: {label: Tipo de Examen}
+        nombre_tipo_examen: {label: Tipo de Examen}
+        exa_nombre_examen: {label: Nombre de Examen}
+        exa_descrip_examen: {label: Descripción}
+        exa_observacion: {label: Observaciones}
+      list:    
+        title: Lista de Examenes
+        display: [nombre_tipo_examen,exa_nombre_examen,exa_descrip_examen,exa_observacion] 
+        max_per_page: 10
+        object_actions:
+          _edit:       {label: Editar } 
+          _delete:     {label: Eliminar, confirm: Esta Seguro(a)?}
+        batch_actions:
+          _delete:      {label: Eliminar,confirm: Esta Seguro(a)?} 
+        actions:
+          _new:         {label: Nuevo}
+        batch_actions: {}
+      filter: 
+        display: [exa_nombre_examen] 
+      form:    ~
+      edit:    
+        title: Editar Examen
+        fields:
+          exa_id_examen: {help: Actualiza el Tipo de Examen}
+          exa_id_tipo_examen: {help: Actualiza el Tipo de Examen}
+          exa_nombre_examen: {help: Actualiza nombre de Examen}
+          exa_descrip_examen: {help: Actualiza la Descripcion de Examen}
+          exa_observacion: {help: Actualiza las Observaciones del Examen}
+        actions:
+          _delete:        {label: Eliminar, confirm: Esta Seguro(a)?} 
+          _list:          {label: Regresar Lista} 
+          _save:          {label: Guardar} 
+      new:     
+        title: Nuevo Examen
+        fields:
+          exa_id_examen: {help: Ingresar }
+          exa_id_tipo_examen: {help: Ingresar Tipo de Examen}
+          exa_nombre_examen: {help: Ingresar Nombre de Examen}
+          exa_descrip_examen: {help: Ingresar la Descripcion de Examen}
+          exa_observacion: {help: Ingresar las Observaciones}
+        actions:
+          _delete:        {label: Eliminar} 
+          _list:          {label: Regresar Lista} 
+          _save:          {label: Guardar} 
+          _save_and_add:  {label: Guardar y Añadir} 
+

@@ -1,0 +1,53 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           ExaTubo
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          exa_tubo
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        ext_id_tubo: {label: Id}
+        ext_nombre_color: {label: Nombre Color Tubo}
+        ext_codigo_color: {label: Codigo Color Tubo}
+      list:    
+        title: Lista Tubos E.
+        display: [ext_nombre_color,ext_codigo_color] 
+        max_per_page: 10
+        object_actions:
+          _edit:       {label: Editar } 
+          _delete:     {label: Eliminar, confirm: Esta Seguro(a)?}
+        batch_actions:
+          _delete:      {label: Eliminar,confirm: Esta Seguro(a)?} 
+        actions:
+          _new:         {label: Nuevo}
+        batch_actions: {}
+      filter:  
+        display: [ext_nombre_color,ext_codigo_color] 
+      form:   ~
+      edit:    
+        title: Editar Tubo E.
+        fields:
+          ext_nombre_color: {help: Actualiza Nombre Color}
+          ext_codigo_color: {help: Actualiza Codigo Codigo}
+        actions:
+          _delete:        {label: Eliminar, confirm: Esta Seguro(a)?} 
+          _list:          {label: Regresar Lista} 
+          _save:          {label: Guardar} 
+      new:     
+        title: Nuevo Tubo E.
+        fields:
+          ext_nombre_color: {help: Ingresar Nombre Color}
+          ext_codigo_color: {help: Ingresar Codigo Codigo}
+        actions:
+          _delete:        {label: Eliminar} 
+          _list:          {label: Regresar Lista} 
+          _save:          {label: Guardar} 
+          _save_and_add:  {label: Guardar y Añadir} 

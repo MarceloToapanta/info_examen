@@ -1,0 +1,169 @@
+ExaExamen:
+  connection: doctrine
+  tableName: exa_examen
+  columns:
+    exa_id_examen:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    exa_id_tipo_examen:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    exa_nombre_examen:
+      type: string(80)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    exa_descrip_examen:
+      type: string(250)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+    exa_observacion:
+      type: string(250)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: false
+      autoincrement: false
+  relations:
+    ExaTipoExamen:
+      local: exa_id_tipo_examen
+      foreign: ete_id_tipo_examen
+      type: one
+    ExaTuboExamen:
+      local: exa_id_examen
+      foreign: ett_id_examen
+      type: many
+ExaTipoExamen:
+  connection: doctrine
+  tableName: exa_tipo_examen
+  columns:
+    ete_id_tipo_examen:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    ete_nombre_examen:
+      type: string(80)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    ExaExamen:
+      local: ete_id_tipo_examen
+      foreign: exa_id_tipo_examen
+      type: many
+ExaTubo:
+  connection: doctrine
+  tableName: exa_tubo
+  columns:
+    ext_id_tubo:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    ext_nombre_color:
+      type: string(50)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    ext_codigo_color:
+      type: string(10)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    ExaTuboExamen:
+      local: ext_id_tubo
+      foreign: ett_id_tubo
+      type: many
+ExaTuboExamen:
+  connection: doctrine
+  tableName: exa_tubo_examen
+  columns:
+    ett_id:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    ett_id_tubo:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    ett_id_examen:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+  relations:
+    ExaTubo:
+      local: ett_id_tubo
+      foreign: ext_id_tubo
+      type: one
+    ExaExamen:
+      local: ett_id_examen
+      foreign: exa_id_examen
+      type: one
+ExaUsuario:
+  connection: doctrine
+  tableName: exa_usuario
+  columns:
+    exa_id_usuario:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: true
+      autoincrement: true
+    exa_nombre_usuario:
+      type: string(80)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    exa_login:
+      type: string(20)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    exa_pass_usuario:
+      type: string(20)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false
+    exa_permiso_usuario:
+      type: integer(4)
+      fixed: false
+      unsigned: false
+      primary: false
+      notnull: true
+      autoincrement: false

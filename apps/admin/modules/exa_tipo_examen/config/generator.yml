@@ -1,0 +1,53 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           ExaTipoExamen
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          exa_tipo_examen
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:  
+        ete_id_tipo_examen: {label: Id}
+        ete_nombre_examen: {label: Nombre Tipo de Examen}
+      list:    
+        title: Lista Tipos de Examenes
+        display: [ete_nombre_examen] 
+        max_per_page: 10
+        object_actions:
+          _edit:       {label: Editar } 
+          _delete:     {label: Eliminar, confirm: Esta Seguro(a)?}
+        batch_actions:
+          _delete:      {label: Eliminar,confirm: Esta Seguro(a)?} 
+        actions:
+          _new:         {label: Nuevo}
+        batch_actions: {}
+      filter:  
+        display: [ete_nombre_examen] 
+      form:   ~
+      edit:    
+        title: Editar Tipo de Examen
+        fields:
+          ete_id_tipo_examen: {help: Ingresar las Observaciones}
+          ete_nombre_examen: {help: Actualiza en Nombre de Tipo de Examen}
+        actions:
+          _delete:        {label: Eliminar, confirm: Esta Seguro(a)?} 
+          _list:          {label: Regresar Lista} 
+          _save:          {label: Guardar} 
+      new:     
+        title: Nuevo Tipo de Examen
+        fields:
+          ete_id_tipo_examen: {help: Ingresar las Observaciones}
+          ete_nombre_examen: {help: Ingresar en Nombre de Tipo de Examen}
+        actions:
+          _delete:        {label: Eliminar} 
+          _list:          {label: Regresar Lista} 
+          _save:          {label: Guardar} 
+          _save_and_add:  {label: Guardar y Añadir} 
+      
